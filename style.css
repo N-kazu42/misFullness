@@ -1,3 +1,7 @@
+body {
+  font-family: "Noto Serif JP", serif;
+}
+
 .video-container {
   height: 80vh;
   position: relative;
@@ -21,11 +25,81 @@ video {
   z-index: -1;
 }
 
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+button img {
+  display: block;
+}
+
 .main-text {
+  padding: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
+}
+
+@media screen and (max-width: 820px) {
+  .main-text {
+    padding-top: 10rem;
+  }
+}
+
+.main-text h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 2px 3px #808080;
+  font-weight: 200;
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@media screen and (max-width: 820px) {
+  .main-text h2 {
+    font-size: 2rem;
+  }
+}
+
+.main-text button img {
+  width: 500px;
+}
+
+@media screen and (max-width: 820px) {
+  .main-text button img {
+    width: 400px;
+  }
+}
+
+.main-text .sub-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-text .sub-text p {
+  background: #fff;
+  border-radius: 30px;
+  padding: 0.2rem 2.2rem;
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 820px) {
+  .main-text .sub-text p {
+    font-size: 0.7rem;
+    padding: 0.2rem 2.2rem;
+    margin-top: 4rem;
+  }
+}
+
+.main-text .sub-text p:nth-of-type(2) {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
