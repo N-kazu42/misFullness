@@ -206,6 +206,9 @@ button img {
     .text-area {
       background: no-repeat url("image/bg3.jpg");
       background-size: cover;
+      p:first-child{
+        margin-top: 0;
+      }
     }
     p {
       margin-bottom: 0;
@@ -239,9 +242,13 @@ button img {
   p {
     color: #fff;
     font-size: 1.5rem;
-    @media screen and (max-width: 700px) {
-      font-size: 0.9rem;
+    @media screen and (max-width: 768px) {
+      font-size: 1.2rem;
     }
+    @media screen and (max-width: 540px) {
+      font-size: .9rem;
+    }
+
     @media screen and (max-width: 486px) {
       font-size: .7rem;
     }
