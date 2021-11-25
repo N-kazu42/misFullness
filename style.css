@@ -396,6 +396,22 @@ button img {
   width: 33%;
 }
 
+@media screen and (max-width: 1050px) {
+  .col2-area:nth-of-type(3) .line {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .col2-area:nth-of-type(3) .line {
+    width: 33%;
+  }
+}
+
+.col2-area:nth-of-type(3) .line img {
+  width: 100%;
+}
+
 .text-area p {
   color: #fff;
   font-size: 1.5rem;

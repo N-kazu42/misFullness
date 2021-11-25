@@ -236,6 +236,15 @@ button img {
   }
   .line {
     width: 33%;
+    @media screen and (max-width: 1050px) {
+      width: 40%;
+    }
+    @media screen and (max-width: 540px) {
+      width: 33%;
+    }
+    img{
+      width: 100%;
+    }
   }
 }
 .text-area {
