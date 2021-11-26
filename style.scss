@@ -1,3 +1,4 @@
+// font-family: 'M PLUS 1p', sans-serif;
 // font-family: 'Noto Sans JP', sans-serif;
 // font-family: 'Noto Serif JP', serif;
 $h100: 100%;
@@ -55,7 +56,8 @@ button img {
     // text-shadow: 1px 2px 3px #808080;
     font-weight: 400;
     margin: 0;
-    font-family: "Noto Sans JP", sans-serif;
+    // font-family: "Noto Sans JP", sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
     @media screen and (max-width: 880px) {
       font-size: 2rem;
     }
