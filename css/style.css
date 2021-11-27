@@ -602,6 +602,12 @@ footer .logo {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .company-table {
+    font-size: .5rem;
+  }
+}
+
 .company-table th {
   width: 90px;
   border: 1px solid #ccc;
