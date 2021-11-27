@@ -160,7 +160,7 @@ button img {
     background:#EDCAC2;
   }
   .logo img {
-    width: 80%;
+    width: 60%;
     height: auto;
   }
   @include area-wrap();
@@ -292,4 +292,30 @@ button img {
       font-size: 0.7rem;
     }
   }
+}
+.table-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.company-side {
+  flex-basis: 50%;
+  align-items: center;
+  font-family: serif;
+  font-weight: bold;
+  color: #5D5D5D;
+  letter-spacing: 2px;
+}
+.table-side h1 {
+  margin: 45px;
+  font-size: 30px;
+  border-bottom: solid 1px #ddd;
+}
+.company-table th {
+  width: 90px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  background-color: #fff;
 }
