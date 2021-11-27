@@ -43,7 +43,7 @@ button img {
   @media screen and (max-width: 1180px) {
     padding-top: 20%;
   }
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +157,7 @@ button img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#EDCAC2;
+    background: #edcac2;
   }
   .logo img {
     width: 60%;
@@ -253,7 +253,7 @@ button img {
   .text-area {
     background: no-repeat url("/image/bg4.jpg");
     background-size: cover;
-    .reserve{
+    .reserve {
       width: 45%;
       padding-top: 2rem;
       padding-bottom: 10px;
@@ -293,29 +293,62 @@ button img {
     }
   }
 }
-.table-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+footer {
+  .col2-area {
+    display: flex;
+    @media screen and (max-width: 486px) {
+      flex-direction: column;
+      height: 450px;
+    }
+  }
+  .logo {
+    width: 50%;
+    @media screen and (max-width: 486px) {
+      width: 100%;
+      height: 200px;
+    }
+  }
 }
 .company-side {
   flex-basis: 50%;
   align-items: center;
   font-family: serif;
   font-weight: bold;
-  color: #5D5D5D;
+  color: #5d5d5d;
   letter-spacing: 2px;
+  @media screen and (max-width: 486px) {
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+  }
 }
-.table-side h1 {
-  margin: 45px;
-  font-size: 30px;
-  border-bottom: solid 1px #ddd;
+.table-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  h1 {
+    padding: 2rem;
+    font-size: 2rem;
+    @media screen and (max-width: 820px) {
+      font-size: 1.5rem;
+    }
+    border-bottom: solid 1px #ddd;
+  }
 }
-.company-table th {
-  width: 90px;
-  border: 1px solid #ccc;
-  font-weight: bold;
-  background-color: #fff;
+
+.company-table {
+  font-size: 1rem;
+  @media screen and (max-width: 820px) {
+    font-size: .8rem;
+  }
+  th {
+    width: 90px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #fff;
+  }
 }
